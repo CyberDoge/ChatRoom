@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FXClient.jnlp">
+    <information>
+        <title>Main</title>
+        <vendor>Unknown</vendor>
+        <description>Main</description>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="9.0.4+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="FXClient.jar" size="53126" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="600" height="400" main-class="sample.main.Main" name="Main"/>
+</jnlp>
+
